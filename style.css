@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.box{
+    width: 300px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px 15px;
+    border: 1;
+    border-radius: 20px;
+}
+
+.imagebox img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.textbox{
+    padding-top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.daysleft{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.equi{
+    display: flex;
+    justify-content: space-around;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+} 
+
+.daysleft1{
+    padding-left: 5px;
+}
+
+.eth{
+    padding-left: 6px;
+}
+
+.spantags{
+    padding-left: 10px;
+}
+
+.author{
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.span2{
+    color: white;
+}
+.span1{
+    color: hsl(215, 51%, 70%);;
+}
+
+.author img{
+    border: 1px solid white;
+    height: 30px;
+    border-radius: 50%;
+}
+
+hr{
+    padding-left: 30px;
+    /* border-color: hsl(215, 51%, 70%); */
+    border-top: 0px solid hsl(215, 51%, 70%);
+
+}
